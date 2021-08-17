@@ -1,0 +1,56 @@
+# TODO: Change baseURL
+baseURL: 'https://svetha-cvl.github.io/crispy-fortnight-public'
+languageCode: en-us
+title: Svetha CVL
+copyright: © Svetha CVL 2021
+
+theme: PaperMod
+paginate: 5
+summaryLength: 20
+# googleAnalytics: UA-123-45
+# disqusShortname: test-hugo-site
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    disableSpecial1stPost: true
+    disableScrollToTop: false
+
+    ShowCodeCopyButtons: true
+
+    mode: auto
+    
+    disableDisqusTypes:
+        - page
+        - about
+
+    homeInfoParams:
+        Title: 'Notes'
+        Content: 'On software engineering, systems and writing'
+
+    socialIcons:
+        - name: github
+          url: 'https://github.com/svetha-cvl'
+        - name: twitter
+          url: 'https://twitter.com/svethacvl'
+        - name: rss
+          url: /index.xml
+
+menu:
+    main:
+        - name: About
+          url: /about
+          weight: 1
+        - name: Posts
+          url: /posts
+          weight: 2
+        - name: Tags
+          url: /tags
+          weight: 3
+
+taxonomies:
+    tag: tags
+
+
